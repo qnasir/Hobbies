@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display:wght@500&family=Poppins:ital@0;1&family=Roboto&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: lightgrey;
+}
+
+nav {
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+    font-size: large;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 80px;
+    color: rgb(209, 118, 118);
+}
+
+#about {
+    margin-top: -5px;
+    margin-left: 80px;
+    font-size: medium;
+    width: 400px;
+}
+
+#read {
+    margin-left: 80px;
+    height: 30px;
+    color: blue;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    opacity: 0.8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.garden {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sudoku {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    height: 400px;
+    margin-right: 80px;
+}
+
+#head {
+    color: rgb(243, 5, 5);
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.data {
+
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+ 
+#footer marquee {
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
